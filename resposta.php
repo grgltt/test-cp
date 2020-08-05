@@ -6,7 +6,7 @@ if (!$_POST) {
     die;
 }
 
-foreach($_POST as $value) {
+foreach ($_POST as $value) {
 
     $number = (int) $value;
 
