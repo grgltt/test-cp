@@ -11,7 +11,7 @@ $questions = $questions->generate();
 	<title>Teste técnico</title>
 </head>
 <body>
-     <form action="/resposta.php" method="post">
+     <form action="resposta.php" method="post">
         <?php
         $i = 1;
         foreach ($questions as $info) {
