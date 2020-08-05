@@ -141,10 +141,10 @@ class Quiz {
 
 		$position = $selected[0];
 
-		if(count($selected) > 1) {
-			$reverse = array_reverse($data, true);
-		    foreach($reverse as $val) {
-		        if(in_array($val, $selected)) {
+		if (count($selected) > 1) {
+		    $reverse = array_reverse($data, true);
+		    foreach ($reverse as $val) {
+		        if (in_array($val, $selected)) {
 		            $position = $val;
 		            break;
 		        }
