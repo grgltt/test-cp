@@ -17,7 +17,7 @@ $questions = $questions->generate();
         foreach ($questions as $info) {
         	shuffle($info['options']);
         ?>
-			<p><?php echo $info['question']; ?></p>
+		<p><?php echo $info['question']; ?></p>
 
         	<?php foreach ($info['options'] as $detail) { ?>
         		<input type="radio" name="<?php echo $i; ?>" value="<?php echo $detail['option']; ?>" required /><?php echo $detail['text']; ?><br />
